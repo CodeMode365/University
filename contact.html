@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universtiy</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/95c8bfd2c3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="./index.html">HOME</a>
+            </li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./course.html">COURSE</a></li>
+            <li><a href="./blog.html">BLOG</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- Contact us Content -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113629.45751936843!2d85.31223440067764!3d27.12731238919318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb6233d5c7f02b%3A0x12ca576cbfa1c14e!2sChandrapur!5e0!3m2!1sen!2snp!4v1672151403955!5m2!1sen!2snp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-solid fa-home"></i>
+            <span
+              ><h5>XYZ Road, ABC Building</h5>
+              <p>Pokhara,Nepal</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-solid fa-phone"></i>
+            <span><h5>+9771234567890</h5></span>
+            <p>Monday to Saturday,10AM to 6PM</p>
+          </div>
+          <div>
+            <i class="fa fa-solid fa-envelope"></i>
+            <span><h5>info@randommail.com</h5></span>
+            <p>Email us your Query</p>
+          </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="text" placeholder="Enter your email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea cols="8" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus earum
+        suscipit vel velit iure, <br />minus eaque totam ducimus libero. Labore?
+      </p>
+      <div class="icons">
+        <i class="fa fa-brands fa-facebook"></i>
+        <i class="fa fa-brands fa-instagram"></i>
+        <i class="fa fa-brands fa-twitter"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+      </div>
+      <p>
+        Made with
+        <i class="fa fa-sharp fa-solid fa-heart"></i> Pabin(CodeMode365)
+      </p>
+    </section>
+
+    <script>
+      //for toggle menu
+      const navlinks = document.getElementById("nav-links");
+      function showMenu() {
+        navlinks.style.right = "0px";
+      }
+      function hideMenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

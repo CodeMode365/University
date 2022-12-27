@@ -4,10 +4,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-body,
+/* body,
 html {
   overflow-x: hidden;
-}
+} */
 .header {
   min-height: 100vh;
   width: 100%;
@@ -109,7 +109,7 @@ nav .fa {
     transition: 0.5s;
   }
   .nav-links {
-    position: absolute;
+    position: fixed;
     background-color: #f44336;
     height: 100vh;
     width: 200px;
@@ -423,7 +423,8 @@ h3 {
 .comment-box h3 {
   text-align: left;
 }
-.comment-box .comment-form input, .comment-box .comment-form textarea {
+.comment-box .comment-form input,
+.comment-box .comment-form textarea {
   width: 100%;
   padding: 10px;
   margin: 15px 0;
@@ -433,12 +434,55 @@ h3 {
   background: #f0f0f0;
 }
 
-.comment-form button{
+.comment-form button {
   margin: 10px 0;
 }
-@media (max-width:700px) {
-  
-  .sub-header h1{
+@media (max-width: 700px) {
+  .sub-header h1 {
     font-size: 24px;
   }
+}
+
+/* Contact us Page  */
+.location {
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+.location iframe {
+  width: 100%;
+}
+.contact-us {
+  width: 80%;
+  margin: auto;
+}
+.conatact-col {
+  flex-basis: 48%;
+  margin-bottom: 30px;
+}
+.conatact-col div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact-col div .fa {
+  font-size: 28px;
+  color: #f44336;
+  margin: 10px;
+  margin-right: 30px;
+}
+.contact-col div p{
+  padding: 0;
+}
+.contact-col div h5{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+}
+.contact-col input, .contact-col textarea{
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 17px;
+  outline: none;
+  border:1px solid #ccc;
 }
