@@ -158,14 +158,14 @@
     </section>
 
     <!-- testimonials section  -->
-    <section class="testimonials">
+    <section class="testi">
       <h3>What Our Students Says</h3>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nostrum
         ipsum modi voluptate. Cum ducimus animi tenetur voluptas provident vel.
       </p>
       <div class="row">
-        <div class="testimonial-col">
+        <div class="testi-col">
           <img src="assets/user1.jpg" alt="user1" />
           <div>
             <p>
@@ -180,7 +180,7 @@
             </p>
           </div>
         </div>
-        <div class="testimonial-col">
+        <div class="testi-col">
           <img src="assets/user2.jpg" alt="user2" />
           <div>
             <p>
@@ -222,10 +222,19 @@
       const navlinks = document.getElementById("nav-links");
       function showMenu() {
         navlinks.style.right = "0px";
+        removeNav()
       }
       function hideMenu() {
         navlinks.style.right = "-200px";
+        removeNav()
       }
+      function removeNav(){
+        if(navlinks.getAttribute.right=="-200px"){
+          navlinks.style.display="none"
+        }
+      }
+      removeNav()
+
     </script>
   </body>
 </html>
