@@ -11,6 +11,8 @@ The website is coded with only html and Css which makes it fully static.
 - Courses
 - Blog 
 - Contact
+
+
 [![Site Snapshot](https://i.postimg.cc/02gkXvVL/Screenshot-45.png)](https://postimg.cc/XX86XRS8)
 
 
