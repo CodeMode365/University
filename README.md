@@ -12,7 +12,8 @@ The website is coded with only html and Css which makes it fully static.
 - Blog 
 - Contact
 
-![Website Snapshot](https://postimg.cc/XX86XRS8)
+<a href='https://postimg.cc/XX86XRS8' target='_blank'><img src='https://i.postimg.cc/XX86XRS8/Screenshot-45.png' border='0' alt='Screenshot-45'/></a>
+
 
 ## Pages Description
 
