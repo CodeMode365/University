@@ -12,7 +12,7 @@ The website is coded with only html and Css which makes it fully static.
 - Blog 
 - Contact
 
-<a><img src="https://postimg.cc/XX86XRS8"/></a>
+<a><img src="https://postimg.cc/delete/GNRLWtpt/2eb74394"/></a>
 
 
 ## Pages Description
