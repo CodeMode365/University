@@ -44,5 +44,5 @@ form to contact University.
 ## Install and Run
 * Clone the repo using git <code>git clone https://github.com/CodeMode365/University.git</code>
 * OR download the zip and extract
-* Open the index.html page 
+* Navigate into folder and Open the index.html page 
 * OR run live-server inside the folder using <code>live-server </code>
