@@ -32,6 +32,7 @@ button to explore more about the University.
 Here we can find the courses offered by the University in more expanded form
 and also the Facilities section is also included.
 
+
 ### Blog:
 This page contains the University blogs. For the example purpose we have used 
 Certification blog in this site. Here the page also contains the form available for 
@@ -46,3 +47,5 @@ form to contact University.
 * OR download the zip and extract
 * Navigate into folder and Open the index.html page 
 * OR run live-server inside the folder using <code>live-server </code>
+
+## Contributers are welcomed
