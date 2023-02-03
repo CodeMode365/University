@@ -1,51 +1,36 @@
+# 25+5 Timer
+Welcome to the 25+5 Timer project! This timer is a simple and easy-to-use tool that helps you stay focused and productive throughout the day. The project is built using React, Redux, and TypeScript, providing a powerful and user-friendly experience.
 
-# University SIte
+## Technology Stack
+* React: A JavaScript library for building user interfaces
+* Redux: A state management library for JavaScript applications
+* TypeScript: A statically typed superset of JavaScript that adds optional type annotations to enhance code reliability and maintainability
+* Scss: A preprocessor scripting language that extends CSS, adding variables, nested rules, and mixins to allow for more concise and organized CSS stylesheets.
 
-This is an static multipaged University site template with complete responsiveness
-that can be used in when building the real world business website. 
-The website is coded with only html and Css which makes it fully static.
+## Snapshot
+[![TimerSnapshot.png](https://i.postimg.cc/0j4xr8HY/Screenshot-60.png)](https://postimg.cc/K3tCHybj)
 
-### Pages Contained
-- Home 
-- About 
-- Courses
-- Blog 
-- Contact
+## Installation
+To install and run the 25+5 Timer locally on your machine, follow these steps:
+1. Clone the repository from GitHub:
+    ```
+    git clone https://github.com/<username>/25-5-timer.git 
+    ```
+1. Navigate to the project directory and install the required dependencies:
+   ```
+    cd 25-5-timer
+    npm install
+   ```
+1. Start the development server:
+    ```
+    npm start
+    OR
+    npm run dev
+    ```
+This will launch the 25+5 Timer in your default browser at http://localhost:3000. You can now use and modify the project as needed.
 
+## Contributing
+We welcome contributions to the 25+5 Timer project. If you would like to contribute.
 
-[![Site Snapshot](https://i.postimg.cc/02gkXvVL/Screenshot-45.png)](https://postimg.cc/XX86XRS8)
-
-
-## Pages Description
-
-### Home:
- This page containts the hero Section describing the college in short
- with beautiful background. Below the hero section it contains details
- about the Courses offered, Global Colleges, College Facilities, Testimonials
- and Contact section.
-
-### About:
-This page contains the basic description about the University, and also provides
-button to explore more about the University.
-
-### Courses:
-Here we can find the courses offered by the University in more expanded form
-and also the Facilities section is also included.
-
-
-### Blog:
-This page contains the University blogs. For the example purpose we have used 
-Certification blog in this site. Here the page also contains the form available for 
-clients to submit their comments.
-
-### About:
-The location of the University is included(Google map example). Below that it contains the 
-form to contact University. 
-
-## Install and Run
-* Clone the repo using git <code>git clone https://github.com/CodeMode365/University.git</code>
-* OR download the zip and extract
-* Navigate into folder and Open the index.html page 
-* OR run live-server inside the folder using <code>live-server </code>
-
-<p align="center"><h2> Contributers are welcomed</h2></p>
+## License
+This project is licensed under the MIT License. See the LICENSE file for more information.
