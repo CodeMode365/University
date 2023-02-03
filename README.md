@@ -1,6 +1,9 @@
 # 25+5 Timer
 Welcome to the 25+5 Timer project! This timer is a simple and easy-to-use tool that helps you stay focused and productive throughout the day. The project is built using React, Redux, and TypeScript, providing a powerful and user-friendly experience.
 
+## How it works?
+The 25+5 Timer project allows you to set a session time and initiate a **countdown**. Once the timer reaches zero, it will start a new countdown as indicated by the *Break Length*. Upon completion of this second countdown, the timer will reset to the beginning of the *Session Length* and continue to count down. This process will repeat indefinitely, with an alarm sound playing each time the timer reaches zero. The timer is designed to provide a tool for increased focus and productivity, *looping infinitely* to ensure an ongoing experience.
+
 ## Technology Stack
 * React: A JavaScript library for building user interfaces
 * Redux: A state management library for JavaScript applications
