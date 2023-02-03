@@ -9,7 +9,7 @@ Welcome to the 25+5 Timer project! This timer is a simple and easy-to-use tool t
 
 ## Snapshot
 <p align="center">
-  <img src="[image-url.png](https://i.postimg.cc/0j4xr8HY/Screenshot-60.png)](https://postimg.cc/K3tCHybj)" alt="image-snapshot">
+  <img src="https://postimg.cc/K3tCHybj" alt="image-snapshot">
 </p>
 
 ## Installation
