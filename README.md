@@ -8,8 +8,9 @@ Welcome to the 25+5 Timer project! This timer is a simple and easy-to-use tool t
 * Scss: A preprocessor scripting language that extends CSS, adding variables, nested rules, and mixins to allow for more concise and organized CSS stylesheets.
 
 ## Snapshot
+<p align="center">
 [![TimerSnapshot.png](https://i.postimg.cc/0j4xr8HY/Screenshot-60.png)](https://postimg.cc/K3tCHybj)
-
+</p>
 ## Installation
 To install and run the 25+5 Timer locally on your machine, follow these steps:
 1. Clone the repository from GitHub:
