@@ -48,4 +48,4 @@ form to contact University.
 * Navigate into folder and Open the index.html page
 * OR run live-server inside the folder using <code>live-server </code>
 
-<p align="center"><h2> Contributers are welcomed</h2></p>
+## Contributers are welcomed 
